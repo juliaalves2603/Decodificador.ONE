@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		 <link rel="preconnect" href="https://fonts.googleapis.com" />
+		 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image" href="./assets/logo-alura.svg" />
+		<title>Decodificador</title>
+
+		<link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+	</head>
+
+
+	<body>	
+		<header>
+			<img class="logo" src="./assets/logo-alura.svg" alt="Logo da Alura" />
+			<h1>DECODIFICANDO TEXTOS-CHALLENGE ONE</h1>
+		</header>
+		
+		<main>
+      <section>
+        <textarea
+          class="text"
+          cols="41"
+          rows="4"
+          placeholder="Digite aqui o seu texto"
+        ></textarea>
+
+        <div class="information">
+          <h6>
+            <img src="./assets/symbol.svg" alt="" />
+            Apenas letras minúsculas e sem acento.
+          </h6>
+        </div>
+
+        <div class="buttons">
+          <button class="btn-encrypt" onclick="btnEncrypt()">
+            Criptografar
+          </button>
+          <button class="btn-decrypt" onclick="btnDecrypt()">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <textarea
+          class="message"
+          cols="42"
+          rows="10"
+          placeholder="Nenhuma mensagem encontrada"
+        ></textarea>
+        <button class="btn-copy" onclick="copy()">Copiar</button>
+      </section>
+    </main>
+
+    <footer>
+    	<p>Desenvolvido por Júlia Alves</p><a href="https://www.linkedin.com/in/j%C3%BAlia-gomes-alves-5574ab204/">
+    	</a>
+    		<a href="https://github.com/juliaalves2603">
+    		</a>
+
+    </footer>
+	</body>
+</html>
